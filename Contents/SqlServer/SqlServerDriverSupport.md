@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: Microsoft SQL Server 接続ドライバー サポート表"
 date: "2021/05/17"
-lastmod: "2023/01/21"
+lastmod: "2023/02/04"
 ---
 
 ## .NET Framework Data Provider for SQL Server
@@ -47,6 +47,7 @@ JDBC ドライバーのバージョン 3.0、4.x、6.x、7.x、および 8.x に
 
 | Version  | ドライバー名                                    | リリースタイプ       |      リリース日 | メインストリーム<br />サポート期限 | サポートJava            |    状態   |
 | :------- | :---------------------------------------- | :------------ | ---------: | -------------------: | :------------------ | :-----: |
+| 12.2.0   | Microsoft JDBC Driver 12.2 for SQL Server | Stable        | 2023/02/02 |           2028/01/31 | JRE11、JRE8               | 現在 |
 | 11.2.3   | Microsoft JDBC Driver 11.2 for SQL Server | Hotfix&Stable | 2023/01/13 |           2027/08/04 | JRE18、JRE17、JRE11、JRE8 | 現在 |
 | 11.2.2   | Microsoft JDBC Driver 11.2 for SQL Server | Hotfix&Stable | 2022/12/15 |           2027/08/04 | JRE18、JRE17、JRE11、JRE8 | 有効 |
 | 11.2.1   | Microsoft JDBC Driver 11.2 for SQL Server | Hotfix&Stable | 2022/09/08 |           2027/08/04 | JRE18、JRE17、JRE11、JRE8 | 有効 |
