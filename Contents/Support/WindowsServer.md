@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: Microsoft Windows"
 description: ":paperclip: Microsoft Windows Server リリース、サポート表"
 date: "2021/11/22"
-lastmod: "2023/02/18"
+lastmod: "2023/02/23"
 ---
 
 ## 0. はじめに  
@@ -21,7 +21,7 @@ lastmod: "2023/02/18"
 
 ### リリース、サポート期限  
 [Windows Server 2022 サポート期限](https://docs.microsoft.com/ja-jp/lifecycle/products/windows-server-2022)  
-[Windows Server IoT 2022 サポート期限](https://docs.microsoft.com/ja-jp/lifecycle/products/windows-server-2022)  
+[Windows Server IoT 2022 サポート期限](https://learn.microsoft.com/ja-jp/lifecycle/products/windows-server-iot-2022)  
 
 | エディション       | 初回ビルド番号 | リリース日 | ﾗｲﾌｻｲｸﾙﾎﾟﾘｼｰ | ライフサイクル<br />の開始日 | 最新改訂日 | ﾒｲﾝｽﾄﾘｰﾑ<br />ｻﾎﾟｰﾄ期限 | 延長<br />ｻﾎﾟｰﾄ期限 | 状態 |
 | :----------------- | -------------: | ---------: |:------------:| ---------: | ---------: | ---------: | ---------: | :-----: |
