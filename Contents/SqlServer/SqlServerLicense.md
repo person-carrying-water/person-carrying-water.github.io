@@ -41,7 +41,7 @@ Windows10などのクライアント向けOSへインストールしスタンド
 
 [Microsoft Windows10 License Terms](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/Useterms_Retail_Windows_10_Japanese.htm)  
 
-また、Windows Server IoT 20xx for StorageというNasなどのデバイスのOEMとしてて供しているOSもありExpress Editionに限りインストール可能であり
+また、Windows Server IoT 20xx for StorageというNasなどのデバイスのOEMとして供しているOSもありExpress Editionに限りインストール可能であり
 低コストで抑えれるかもしれません。しかもクライアントライセンス(CAL)も必要なく小規模で用途に限定しているならおすすめです。  
 サポートも長期ライフサイクルなので長く得られるでしょう。  
 
