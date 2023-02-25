@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: .NET Frameworkバージョン／サポート表"
 date: "2020/05/17"
-lastmod: "2023/02/18"
+lastmod: "2023/02/24"
 ---
 
 ## 1. .NET Core / .NETサポート表
@@ -22,6 +22,24 @@ lastmod: "2023/02/18"
 [.NET Core / .NETサポートポリシー(us)](https://dotnet.microsoft.com/platform/support/policy/dotnet-core)  
 [.NET Core / .NETサポートポリシー(jp)](https://dotnet.microsoft.com/ja-jp/platform/support/policy/dotnet-core)  
 [.NET Core / .NET(github)](https://github.com/dotnet/core)  
+
+### .NET8  
+**サポートレベル：LTS(Long Term Support)チャネル**  
+
+#### リリース、サポート期限  
+[.NET Core / .NETライフサイクル](https://docs.microsoft.com/ja-jp/lifecycle/products/microsoft-net-and-net-core)  
+[.NET Core / .NETライフサイクル(us)](https://docs.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core)  
+
+| バージョン | 初回SDK  | リリース日 | ﾗｲﾌｻｲｸﾙﾎﾟﾘｼｰ | LTS開始宣言 | 最新改訂日 | サポート期限 |  状態   |
+| :--------- | ------: | ---------: |:--------- --:| ----------: | ---------: | ----------: | :----:  |
+| 8.0.x      | 8.0.100 | 2023/11/xx |モダンサイクル | 2023/11/xx | 2023/02/21 | 202x/xx/xx  | プレビュー |
+
+#### 改訂版  
+[.NETの更新履歴](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
+
+| バージョン | SDKﾊﾞｰｼﾞｮﾝ | 改訂発表日 | VSサポート    | VS内臓   | リリースタイプ       |   状態   |
+| ---------: | ---------: | ---------: | :----------: | :------- | :------------------: | :-----: |
+| 8.0.0-preview.1 | 8.0.100-preview.1 | 2023/02/21 | VS2022 17.6 Preview1  | 1x.0.x   | preview.1 | プレビュー |
 
 ### .NET7  
 **サポートレベル：STS(Standard Term Support)チャネル**
