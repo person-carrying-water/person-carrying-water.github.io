@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: pgAdmin サポート表"
 date: "2020/05/17"
-lastmod: "2023/02/11"
+lastmod: "2023/03/12"
 ---
 
 ## 1. サポートについて
@@ -111,7 +111,8 @@ lastmod: "2023/02/11"
 | pgAdmin4 | v6.17   | 2022/12/02 |     -- |   有効  |
 | pgAdmin4 | v6.18   | 2022/12/19 |     -- |   有効  |
 | pgAdmin4 | v6.19   | 2023/01/17 |     -- |   有効  |
-| pgAdmin4 | v6.20   | 2023/02/09 |     -- |   現在  |
-| pgAdmin4 | v6.21   | 2023/03/09 |     -- |   次期  |
+| pgAdmin4 | v6.20   | 2023/02/09 |     -- |   有効  |
+| pgAdmin4 | v6.21   | 2023/03/09 |     -- |   現在  |
+| pgAdmin4 | v7.0    | 2023/04/06 |     -- |   次期  |
 
 * * *
