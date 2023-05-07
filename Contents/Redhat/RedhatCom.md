@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  ":computer: Linux、CentOS"
-description: ":wrench: CentOSコマンド"
-date: "2020/01/26"
-lastmod: "2020/05/17"
+title:  ":computer: Linux"
+description: ":wrench: RedHat系コマンド"
+date: "2023/05/03"
+lastmod: "2023/05/03"
 ---
 
 ### 0. ユーザーの切り替え
@@ -14,11 +14,55 @@ lastmod: "2020/05/17"
     パスワード:<※表示しないので構わず入力>
     [root@localhost ~]# 
 
-#### 0-2. root管理者から一般ユーザーに戻す
+#### 0-2. root管理者から一般ユーザーに戻す  
+```
+[root@localhost ~]# su - username
+[username@localhost ~]$
+```
+または  
 
     [root@localhost ~]# exit
     ログアウト
     [username@localhost ~]$
+
+#### 0-3. 一般ユーザーのsudo実行権限  
+インストール直後などでは、一般ユーザーにsudoコマンドの実行権限は与えられていないので以下のようなメッセージが出ます。  
+
+```
+[username@localhost ~]$ sudo ～
+usernameは sudoers ファイル内にありません。この事象は記録・報告されます。
+```
+
+**解決方法**  
+root管理者アカウントに切り替え`visudo`と入力しエンターキーを押します。  
+```
+[username@localhost ~]$ su -
+パスワード:<※表示しないので構わず入力>
+[root@localhost ~]# visudo
+```
+
+viエディタモードとなります。  
+テキスト内に以下の行を探します。  
+```
+%wheel  ALL=(ALL)    ALL
+```
+
+見つけたら、コマンドモードとなっているので`iキー`または`Insertキー`を押し**入力モード**に切り替えます。  
+※最下行に-- INSERT --が現れたら入力モードとなっています。  
+`%wheel  ALL=(ALL)     ALL`の下に以下の行を追加します。  
+※usernameは権限を得たいユーザー名を入力します。  
+```
+username  ALL=(ALL)   ALLと追加する。
+```
+
+追加したら`Escキー`を押してコマンドモードに戻す。
+`:wq`と入力しエンターキーを押し、上書き保存＆エディタを終了させます。  
+su - usernameでもとのユーザーに戻す。
+
+```
+[root@localhost ~]# su - username
+[username@localhost ~]$
+```
 
 <br />
 
@@ -174,9 +218,17 @@ lastmod: "2020/05/17"
 
 #### 3-4. 書庫などのファイルダウンロード
 
+**curlコマンド**  
+
 例：ダウンロードディレクトリにtar.gz書庫ファイルをダウンロードする
 
     [username@localhost ダウンロード]$ curl -OL htts://xxxx.tar.gz
+
+**wgetコマンド**  
+
+```
+wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/java/17/archive/jdk-17.0.7_linux-x64_bin.rpm
+```
 
 #### 3-5. tar.gz書庫の展開(解凍)
 
@@ -194,6 +246,8 @@ lastmod: "2020/05/17"
 ※展開先のフォルダは書き込み可能である事。
 
     [username@localhost ダウンロード]$ unzip xxxx.zip -d ~testdir
+
+
 
 <br />
 
