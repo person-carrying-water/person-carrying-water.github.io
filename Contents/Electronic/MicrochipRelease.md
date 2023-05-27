@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: Microchip リリース、サポート表"
 date: "2021/11/18"
-lastmod: "2023/04/29"
+lastmod: "2023/05/27"
 ---
 
 ## 0. はじめに  
@@ -15,7 +15,8 @@ lastmod: "2023/04/29"
 
 | 名称      | バージョン  | リリース日 | サポート期限 |   状態  |
 | :-------- | :--------- | ---------: | -----------: | :-----: |
-| MPLAB X   | v6.05      | 2022/10/31 | xxxx/xx/xx   |   現在  |
+| MPLAB X   | v6.10      | 2023/05/17 | xxxx/xx/xx   |   現在  |
+| MPLAB X   | v6.05      | 2022/10/31 | xxxx/xx/xx   |   有効  |
 | MPLAB X   | v6.00      | 2022/01/03 | xxxx/xx/xx   |   有効  |
 | MPLAB X   | v5.50      | 2021/05/14 | xxxx/xx/xx   |   有効  |
 
