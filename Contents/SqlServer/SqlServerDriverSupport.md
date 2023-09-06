@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: Microsoft SQL Server 接続ドライバー サポート表"
 date: "2021/05/17"
-lastmod: "2023/03/12"
+lastmod: "2023/09/06"
 ---
 
 ## .NET Framework Data Provider for SQL Server
@@ -47,6 +47,8 @@ JDBC ドライバーのバージョン 3.0、4.x、6.x、7.x、および 8.x に
 
 | Version  | ドライバー名                                    | リリースタイプ       |      リリース日 | メインストリーム<br />サポート期限 | サポートJava            |    状態   |
 | :------- | :---------------------------------------- | :------------ | ---------: | -------------------: | :------------------ | :-----: |
+| 12.4.1   | Microsoft JDBC Driver 12.4 for SQL Server | Hotfix&Stable | 2023/08/24 |           2028/07/31 | JRE11、JRE8               | 現在 |
+| 12.4.0   | Microsoft JDBC Driver 12.4 for SQL Server | Stable        | 2023/08/01 |           2028/07/31 | JRE11、JRE8               | 有効 |
 | 12.2.0   | Microsoft JDBC Driver 12.2 for SQL Server | Stable        | 2023/02/02 |           2028/01/31 | JRE11、JRE8               | 現在 |
 | 11.2.3   | Microsoft JDBC Driver 11.2 for SQL Server | Hotfix&Stable | 2023/01/13 |           2027/08/04 | JRE18、JRE17、JRE11、JRE8 | 現在 |
 | 11.2.2   | Microsoft JDBC Driver 11.2 for SQL Server | Hotfix&Stable | 2022/12/15 |           2027/08/04 | JRE18、JRE17、JRE11、JRE8 | 有効 |
@@ -71,8 +73,8 @@ JDBC ドライバーのバージョン 3.0、4.x、6.x、7.x、および 8.x に
 | 7.2.2    | Microsoft JDBC Driver 7.2 for SQL Server  | Hotfix&Stable | 2019/04/17 |           2024/04/16 | JRE11、JRE8          | current |
 | 7.2.1    | Microsoft JDBC Driver 7.2 for SQL Server  | Hotfix&Stable | 2019/02/11 |           2024/02/11 | JRE11、JRE8          |  valid  |
 | 7.2.0    | Microsoft JDBC Driver 7.2 for SQL Server  | Stable        | 2019/01/31 |           2024/01/31 | JRE11、JRE8          |  valid  |
-| 7.0.0    | Microsoft JDBC Driver 7.0 for SQL Server  | Stable        | 2018/07/31 |           2023/07/31 | JRE10、JRE8          | current |
-| 6.4.0    | Microsoft SQL Server 用 JDBC Driver 6.4    | Stable        | 2018/02/27 |           2023/02/27 | JRE9、JRE8、JRE7      | current |
+| 7.0.0    | Microsoft JDBC Driver 7.0 for SQL Server  | Stable        | 2018/07/31 |           2023/07/31 | JRE10、JRE8          | **終了** |
+| 6.4.0    | Microsoft SQL Server 用 JDBC Driver 6.4    | Stable        | 2018/02/27 |           2023/02/27 | JRE9、JRE8、JRE7      | **終了** |
 | 6.2.2    | Microsoft JDBC Driver 6.2 for SQL Server  | Hotfix&Stable | 2017/09/29 |           2022/09/29 | JRE8、JRE7           | **終了** |
 | 6.2.1    | Microsoft JDBC Driver 6.2 for SQL Server  | Hotfix&Stable | 2017/07/14 |           2022/07/14 | JRE8、JRE7           | **終了** |
 | 6.2.0    | Microsoft JDBC Driver 6.2 for SQL Server  | Stable        | 2017/06/30 |           2022/06/30 | JRE8、JRE7           | **終了** |
