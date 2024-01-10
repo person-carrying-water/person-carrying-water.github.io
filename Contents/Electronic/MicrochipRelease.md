@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: Microchip リリース、サポート表"
 date: "2021/11/18"
-lastmod: "2023/09/06"
+lastmod: "2024/01/10"
 ---
 
 ## 0. はじめに  
@@ -28,8 +28,9 @@ lastmod: "2023/09/06"
 
 | 名称               | バージョン | リリース日 | サポート期限 |   状態  |
 | :----------------- | :-------- | ---------: | -----------: | :-----: |
+| XC32/32++ Compiler | v4.35     | 2023/09/18 | xxxx/xx/xx   |   現在  |
 | XC8 Compiler       | v2.45     | 2023/08/31 | xxxx/xx/xx   |   現在  |
-| XC32/32++ Compiler | v4.30     | 2023/06/19 | xxxx/xx/xx   |   現在  |
+| XC32/32++ Compiler | v4.30     | 2023/06/19 | xxxx/xx/xx   |   有効  |
 | XC16 Compiler      | v2.10     | 2023/04/18 | xxxx/xx/xx   |   現在  |
 | XC8 Compiler       | v2.41     | 2023/02/21 | xxxx/xx/xx   |   有効  |
 | XC32/32++ Compiler | v4.21     | 2022/12/19 | xxxx/xx/xx   |   有効  |
