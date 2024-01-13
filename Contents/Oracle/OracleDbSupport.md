@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: Oracle Databaseリリース／サポート表"
 date: "2021/04/22"
-lastmod: "2023/09/06"
+lastmod: "2024/01/13"
 ---
 
 ## 0. はじめに  
@@ -33,6 +33,31 @@ Oracle Database 18cは12cの12.2.0.1の後継版12.2.0.2相当となり、19cは
 <br />
 
 ## 1. Oracle Database サポート表  
+### Oracle Database 23c  
+**リリースタイプ：長期(Long Term)**  
+
+#### リリース、サポート期限  
+[Oracle Database 現在のデータベース・リリースのリリース・スケジュール](https://support.oracle.com/knowledge/Oracle%20Cloud/2413744_1.html)  
+[Oracle Database 現在のデータベース・リリースのリリース・スケジュール(us)](https://support.oracle.com/knowledge/Oracle%20Database%20Products/742060_1.html)  
+
+| エディション       | 初回ビルド番号 | リリース日 | プラットフォーム | 提供タイプ | 最新改訂日 | Premier<br />サポート期限 | 有償Extended<br />サポート期限 |パッチ終了日| 状態 |
+| :----------------- | -------------: | ---------: |:------------:| :---------: | ---------: | ---------: | ---------: | ---------: | :-----: |
+|Enterprise、<br />Standard 2| 23.x.0.0.0 | 2023/09/19 | Database Cloud    | クラウド    | 2023/10/17 | 20xx/04/30 | 2032/04/30 | 2032/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 23.x.0.0.0 | 2023/xx/xx | Exadata Database  | オンプレミス | 2023/10/17 | 20xx/04/30 | 2032/04/30 | 2032/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 23.x.0.0.0 | 2023/xx/xx | Linux x86-64bit   | オンプレミス | 2023/10/17 | 20xx/04/30 | 2032/04/30 | 2032/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 23.x.0.0.0 | 2023/xx/xx | Windows x64-64bit | オンプレミス | 2023/10/17 | 20xx/04/30 | 2032/04/30 | 2032/04/30 | 現在 |
+
+#### 改訂版  
+[Oracle データベース 23c プロアクテイブ・パッチ情報(en)](https://support.oracle.com/knowledge/Oracle%20Cloud/2521164_1.html)  
+[Oracle データベース 23c プロアクテイブ・パッチ情報(jp)](https://support.oracle.com/knowledge/Oracle%20Cloud/2532085_1.html)  
+[Oracle Database 23c Release Update & Release Update Revision(2023年10月)]()  
+[Oracle データベース 23c プロアクテイブ・パッチ情報](https://support.oracle.com/knowledge/Oracle%20Cloud/2532085_1.html)  
+
+| Release Update名 | 更新発表日 | Download link  |        更新対象名       |   状態   |
+| :--------------- | ---------: | :------------: | :---------------------: | :-----: |
+| 23.x.0.0.231017 | 2023/10/17 | Patch xxxxxxxx | Database Release Update | 現在 |
+
+<br />
 
 ### Oracle Database 21c  
 **リリースタイプ：革新(Innovation)**  
@@ -43,15 +68,16 @@ Oracle Database 18cは12cの12.2.0.1の後継版12.2.0.2相当となり、19cは
 
 | エディション       | 初回ビルド番号 | リリース日 | プラットフォーム | 提供タイプ | 最新改訂日 | Premier<br />サポート期限 | 有償Extended<br />サポート期限 |パッチ終了日| 状態 |
 | :----------------- | -------------: | ---------: |:------------:| :---------: | ---------: | ---------: | ---------: | ---------: | :-----: |
-|Enterprise<br />Standard 2| 21.1.0.0.0 | 2020/12/08 | Database Cloud    | クラウド    | 2023/07/18 | 2024/04/30 | ----/--/-- | 2024/04/30 | 現在 |
-|Enterprise<br />Standard 2| 21.3.0.0.0 | 2021/08/13 | Exadata Database  | オンプレミス | 2023/07/18 | 2024/04/30 | ----/--/-- | 2024/04/30 | 現在 |
-|Enterprise<br />Standard 2| 21.3.0.0.0 | 2021/08/13 | Linux x86-64bit   | オンプレミス | 2023/07/18 | 2024/04/30 | ----/--/-- | 2024/04/30 | 現在 |
-|Enterprise<br />Standard 2| 21.3.0.0.0 | 2021/10/08 | Windows x64-64bit | オンプレミス | 2023/07/18 | 2024/04/30 | ----/--/-- | 2024/04/30 | 現在 |
-|Express                    | 21.3.0.0.0 | 2021/09/08 | Linux x86-64bit    | オンプレミス | 2023/07/18 | 2024/04/30 | ----/--/-- | 2024/04/30 | 現在 |
-|Express                    | 21.3.0.0.0 | 2021/10/08 | Windows x64-64bit | オンプレミス | 2023/07/18 | 2024/04/30 | ----/--/-- | 2024/04/30 | 現在 |
+|Enterprise<br />Standard 2| 21.1.0.0.0 | 2020/12/08 | Database Cloud    | クラウド    | 2023/10/17 | 2025/04/30 | ----/--/-- | 2025/04/30 | 現在 |
+|Enterprise<br />Standard 2| 21.3.0.0.0 | 2021/08/13 | Exadata Database  | オンプレミス | 2023/10/17 | 2025/04/30 | ----/--/-- | 2025/04/30 | 現在 |
+|Enterprise<br />Standard 2| 21.3.0.0.0 | 2021/08/13 | Linux x86-64bit   | オンプレミス | 2023/10/17 | 2025/04/30 | ----/--/-- | 2025/04/30 | 現在 |
+|Enterprise<br />Standard 2| 21.3.0.0.0 | 2021/10/08 | Windows x64-64bit | オンプレミス | 2023/10/17 | 2025/04/30 | ----/--/-- | 2025/04/30 | 現在 |
+|Express                    | 21.3.0.0.0 | 2021/09/08 | Linux x86-64bit    | オンプレミス | 2023/10/17 | 2025/04/30 | ----/--/-- | 2025/04/30 | 現在 |
+|Express                    | 21.3.0.0.0 | 2021/10/08 | Windows x64-64bit | オンプレミス | 2023/10/17 | 2025/04/30 | ----/--/-- | 2025/04/30 | 現在 |
 
 #### 改訂版  
 [Oracle データベース 21c プロアクテイブ・パッチ情報(en)](https://support.oracle.com/knowledge/Oracle%20Cloud/2796590_1.html)  
+[Oracle Database 21cのRelease Update & Release Update Revision(2023年10月)](https://support.oracle.com/knowledge/Oracle%20Cloud/21202310_9.html)  
 [Oracle Database 21cのRelease Update & Release Update Revision(2023年07月)](https://support.oracle.com/knowledge/Oracle%20Cloud/21202307_9.html)  
 [Oracle Database 21cのRelease Update & Release Update Revision(2023年04月)](https://support.oracle.com/knowledge/Oracle%20Database%20Products/21202304_9.html)  
 [Oracle Database 21cのRelease Update & Release Update Revision(2023年01月)](https://support.oracle.com/knowledge/Oracle%20Database%20Products/21202301_9.html)  
@@ -63,7 +89,8 @@ Oracle Database 18cは12cの12.2.0.1の後継版12.2.0.2相当となり、19cは
 
 | Release Update名 | 更新発表日 | Download link  |        更新対象名       |   状態   |
 | :--------------- | ---------: | :------------: | :---------------------: | :-----: |
-| 21.11.0.0.230718 | 2023/07/18 | Patch 35428978 | Database Release Update | 現在 |
+| 21.12.0.0.231017 | 2023/10/17 | Patch 35740258 | Database Release Update | 現在 |
+| 21.11.0.0.230718 | 2023/07/18 | Patch 35428978 | Database Release Update | 有効 |
 | 21.10.0.0.230418 | 2023/04/18 | Patch 35134934 | Database Release Update | 有効 |
 | 21.9.0.0.230117  | 2023/01/17 | Patch 34839741 | Database Release Update | 有効 |
 | 21.8.0.0.220719  | 2022/10/18 | Patch 34527084 | Database Release Update | 有効 |
@@ -83,16 +110,17 @@ Oracle Database 18cは12cの12.2.0.1の後継版12.2.0.2相当となり、19cは
 
 | エディション       | 初回ビルド番号 | リリース日 | プラットフォーム | 提供タイプ | 最新改訂日 | Premier<br />サポート期限 | 有償Extended<br />サポート期限 |パッチ終了日| 状態 |
 | :----------------- | -------------: | ---------: |:------------:| :---------: | ---------: | ---------: | ---------: | ---------: | :-----: |
-|Enterprise、<br />Standard 2| 19.1.0.0.0 | 2018/11/xx | Exadata Database  | オンプレミス | 2023/07/18 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
-|Enterprise、<br />Standard 2| 19.2.0.0.0 | 2019/02/13 | Exadata Database  | オンプレミス | 2023/07/18 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
-|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/04/25 | Linux x86-64bit   | オンプレミス | 2023/07/18 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
-|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/06/08 | Windows x64-64bit | オンプレミス | 2023/07/18 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
-|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/06/19 | Exadata Cloud     | クラウド    | 2023/07/18 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
-|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/07/08 | Database Cloud    | クラウド    | 2023/07/18 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 19.1.0.0.0 | 2018/11/xx | Exadata Database  | オンプレミス | 2023/10/17 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 19.2.0.0.0 | 2019/02/13 | Exadata Database  | オンプレミス | 2023/10/17 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/04/25 | Linux x86-64bit   | オンプレミス | 2023/10/17 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/06/08 | Windows x64-64bit | オンプレミス | 2023/10/17 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/06/19 | Exadata Cloud     | クラウド    | 2023/10/17 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
+|Enterprise、<br />Standard 2| 19.3.0.0.0 | 2019/07/08 | Database Cloud    | クラウド    | 2023/10/17 | 2024/04/30 | 2027/04/30 | 2027/04/30 | 現在 |
 
 #### 改訂版  
 [Oracle データベース 19c プロアクテイブ・パッチ情報(en)](https://support.oracle.com/knowledge/Oracle%20Cloud/2521164_1.html)  
 [Oracle データベース 19c プロアクテイブ・パッチ情報(jp)](https://support.oracle.com/knowledge/Oracle%20Cloud/2532085_1.html)  
+[Oracle Database 19c Release Update & Release Update Revision(2023年10月)](https://support.oracle.com/knowledge/Oracle%20Cloud/19202310_9.html)  
 [Oracle Database 19c Release Update & Release Update Revision(2023年07月)](https://support.oracle.com/knowledge/Oracle%20Cloud/19202307_9.html)  
 [Oracle Database 19c Release Update & Release Update Revision(2023年04月)](https://support.oracle.com/knowledge/Oracle%20Cloud/19202304_9.html)  
 [Oracle Database 19c Release Update & Release Update Revision(2023年01月)](https://support.oracle.com/knowledge/Oracle%20Cloud/19202301_9.html)  
@@ -108,7 +136,8 @@ Oracle Database 18cは12cの12.2.0.1の後継版12.2.0.2相当となり、19cは
 
 | Release Update名 | 更新発表日 | Download link  |        更新対象名       |   状態   |
 | :--------------- | ---------: | :------------: | :---------------------: | :-----: |
-| 19.20.0.0.230718 | 2023/07/18 | Patch 35320081 | Database Release Update | 現在 |
+| 19.21.0.0.231017 | 2023/10/17 | Patch 35643107 | Database Release Update | 現在 |
+| 19.20.0.0.230718 | 2023/07/18 | Patch 35320081 | Database Release Update | 有効 |
 | 19.19.0.0.230418 | 2023/04/18 | Patch 35042068 | Database Release Update | 有効 |
 | 19.18.0.0.230117 | 2023/01/17 | Patch 34765931 | Database Release Update | 有効 |
 | 19.17.0.0.220719 | 2022/10/18 | Patch 34419443 | Database Release Update | 有効 |
