@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: Microchip リリース、サポート表"
 date: "2021/11/18"
-lastmod: "2024/01/10"
+lastmod: "2024/04/30"
 ---
 
 ## 0. はじめに  
@@ -15,7 +15,8 @@ lastmod: "2024/01/10"
 
 | 名称      | バージョン  | リリース日 | サポート期限 |   状態  |
 | :-------- | :--------- | ---------: | -----------: | :-----: |
-| MPLAB X   | v6.15      | 2023/08/10 | xxxx/xx/xx   |   現在  |
+| MPLAB X   | v6.20      | 2024/01/31 | xxxx/xx/xx   |   現在  |
+| MPLAB X   | v6.15      | 2023/08/10 | xxxx/xx/xx   |   有効  |
 | MPLAB X   | v6.10      | 2023/05/17 | xxxx/xx/xx   |   有効  |
 | MPLAB X   | v6.05      | 2022/10/31 | xxxx/xx/xx   |   有効  |
 | MPLAB X   | v6.00      | 2022/01/03 | xxxx/xx/xx   |   有効  |
@@ -28,8 +29,12 @@ lastmod: "2024/01/10"
 
 | 名称               | バージョン | リリース日 | サポート期限 |   状態  |
 | :----------------- | :-------- | ---------: | -----------: | :-----: |
-| XC32/32++ Compiler | v4.35     | 2023/09/18 | xxxx/xx/xx   |   現在  |
-| XC8 Compiler       | v2.45     | 2023/08/31 | xxxx/xx/xx   |   現在  |
+| XC-DSC Compiler    | v3.10     | 2024/04/24 | xxxx/xx/xx   |   現在  |
+| XC32/32++ Compiler | v4.40     | 2024/04/24 | xxxx/xx/xx   |   現在  |
+| XC8 Compiler       | v2.46     | 2024/01/23 | xxxx/xx/xx   |   現在  |
+| XC-DSC Compiler    | v3.00     | 2023/11/17 | xxxx/xx/xx   |   有効  |
+| XC32/32++ Compiler | v4.35     | 2023/09/18 | xxxx/xx/xx   |   有効  |
+| XC8 Compiler       | v2.45     | 2023/08/31 | xxxx/xx/xx   |   有効  |
 | XC32/32++ Compiler | v4.30     | 2023/06/19 | xxxx/xx/xx   |   有効  |
 | XC16 Compiler      | v2.10     | 2023/04/18 | xxxx/xx/xx   |   現在  |
 | XC8 Compiler       | v2.41     | 2023/02/21 | xxxx/xx/xx   |   有効  |
