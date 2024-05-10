@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: サポート表"
 description: ":paperclip: Oracle Databaseリリース／サポート表"
 date: "2021/04/22"
-lastmod: "2024/01/13"
+lastmod: "2024/05/10"
 ---
 
 ## 0. はじめに  
@@ -12,6 +12,8 @@ lastmod: "2024/01/13"
 無償サポートは無くなり有償のみのサポートとなった。  
 Oracle Database 18cは12cの12.2.0.1の後継版12.2.0.2相当となり、19cは12.2.0.3相当となる。  
 よって、12.2.0.1はサポート期限が2020/11/20であるが、12.2系のサポートでみると2026/03/31までとなる。
+
+[Oracle Database 19c以降のバージョンのパッチ配信方法](https://docs.oracle.com/cd/F19136_01/dbptc/index.html#GUID-A831852D-28AC-4C82-A5D4-5051C14BF4D2)  
 
 [データベース・リリースのリリース・スケジュール](https://support.oracle.com/knowledge/Oracle%20Database%20Products/2413744_1.html)  
 [データベース・リリースのリリース・スケジュール2](https://support.oracle.com/knowledge/Oracle%20Cloud/2413744_1.html)  
