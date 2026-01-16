@@ -3,7 +3,7 @@ layout: default
 title: ":package: Microsoft Visual Studio Code"
 description: ":inbox_tray: Microsoft Visual Studio Codeインストール(Ubuntu)"
 date: "2026/01/15"
-lastmod: "2026/01/15"
+lastmod: "2026/01/16"
 ---
 
 ## 0. はじめに  
@@ -25,13 +25,13 @@ $ sudo snap remove code
 code removed (snap data snapshot saved)
 ```
 
-`snap list`や`snap list code`などで一覧から削除されているか確認。　　
+`snap list`や`snap list code`などで一覧から削除されているか確認。  
 
 <br />
 
 ## 1. Microsoft Visual Studio Codeをダウンロードする  
-公式サイトから.debパッケージを~Downloadsフォルダにダウンロードする。　　
-wgetやcurlを使ってインストールすることもできるがURLが都度変わる可能性もあるので割愛する。　　
+公式サイトから.debパッケージを~Downloadsフォルダにダウンロードする。  
+wgetやcurlを使ってインストールすることもできるがURLが都度変わる可能性もあるので割愛する。  
 
 <br />
 
