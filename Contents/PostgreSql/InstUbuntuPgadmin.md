@@ -40,7 +40,7 @@ N: There are 8 additional versions. Please use the '-a' switch to see them.
 または、  
 ```
 $ apt show pgadmin4
-ackage: pgadmin4
+package: pgadmin4
 Version: 9.11
 Priority: optional
 Section: database
@@ -57,7 +57,7 @@ N: There are 8 additional records. Please use the '-a' switch to see them.
 
 **pgAdmin4を起動して使えるようにする。**  
 `pgAdminを起動してサーバーの登録をする`
-Serversを右クリックして登録→サーバーをクリック
+Serversを右クリックして登録→サーバーをクリック  
 接続タブのホスト名にlocalhost、パスワードにpostgresのパスワードを入力し保存する。postgresユーザーでログインできる。
 
 ___
