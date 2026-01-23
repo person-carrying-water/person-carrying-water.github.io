@@ -8,12 +8,14 @@ lastmod: "2026/01/23"
 
 ## 0. はじめに  
 ここでは、snapパッケージでインストールする方法です。  
-※JetBrains　IntelliJ IDEAのCommunityとUltimateは2025.3から１つに統一されたようです。  
+※JetBrains IntelliJ IDEAのCommunityとUltimateは2025.3から１つに統一されたようです。  
 
 <br />
 
 ## 1. JetBrains IntelliJ IDEAのインストール   
 ### 1-1. snapがインストールされているか確認  
+snapがインストールされているか以下で確認できます。  
+インストールされていない場合は`snapd`をインストールできます。  
 ```
 $ snap list snapd
 Name   Version  Rev    Tracking       Publisher   Notes
