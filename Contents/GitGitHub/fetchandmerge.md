@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":octocat: Git、GitHub"
-description: ":octocat: Git、GitHub他者の変更点を取り込む"
+title: ":octopus: Git、GitHub"
+description: ":cat: Git、GitHub他者の変更点を取り込む"
 date: "2021/09/04"
 lastmod: "2022/12/15"
 ---

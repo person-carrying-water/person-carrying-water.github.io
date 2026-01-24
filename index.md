@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ":octocat: Home"
-description: ":notebook: マークダウンメモ・Home"
+title: ":house: Home"
+description: ":page_with_curl: マークダウンメモ・Home"
 date: "2020/05/17"
-lastmod: "2023/05/10"
+lastmod: "2026/01/24"
 ---
 
 ## はじめに  

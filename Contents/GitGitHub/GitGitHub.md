@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ":octocat: Git、GitHub"
-description: ":octocat: Git、GitHub環境構築メモ"
+title: ":octopus: Git、GitHub"
+description: ":cat: Git、GitHub環境構築メモ"
 date: "2019/08/30"
 lastmod: "2023/01/25"
 ---

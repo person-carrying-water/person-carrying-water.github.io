@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ":octopus: Git、GitHub"
-description: ":octopus: gitインストール(Ubuntu)"
+description: ":cat: gitインストール(Ubuntu)"
 date: "2026/01/15"
 lastmod: "2026/01/15"
 ---
