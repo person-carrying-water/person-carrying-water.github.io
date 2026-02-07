@@ -3,7 +3,7 @@ layout: default
 title: ":newspaper: Microsoft SQL Server"
 description: ":paperclip: Microsoft SQL Serverライセンス"
 date: "2020/10/11"
-lastmod: "2023/02/23"
+lastmod: "2026/02/07"
 ---
 
 ## 1. Microsoft SQL Server Express Editionライセンスについて
@@ -14,12 +14,12 @@ Microsoft Visual Studio Express Editonのライセンス条項はインストー
 フォルダなどの中にリッチテキスト形式で保存されています。  
 
 ### 1-1. Microsoft SQL Server Express Editionのハード的な制限について
-
 Microsoft SQL Server Express Editionでは、使用できるハード的なリソースに制限があります。  
 
-[SQL Server2022のスケールの制限(https://learn.microsoft.com/ja-jp/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver15)  
+[SQL Server2025のスケールの制限](https://learn.microsoft.com/ja-jp/sql/sql-server/editions-and-components-of-sql-server-2025?view=sql-server-ver17)  
+[SQL Server2022のスケールの制限](https://learn.microsoft.com/ja-jp/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16)  
 [SQL Server2019のスケールの制限](https://docs.microsoft.com/ja-jp/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15)  
-[SQL Server2017のスケールの制限](https://docs.microsoft.com/ja-jp/sql/sql-server/editions-and-components-of-sql-server-2017?view=sql-server-ver15)  
+[SQL Server2017のスケールの制限](https://docs.microsoft.com/ja-jp/sql/sql-server/editions-and-components-of-sql-server-2017?view=sql-server-2017)  
 
 -   1 つのインスタンスで使用される最大計算容量(データベース エンジン)：1ソケットまたは 4コアのいずれか小さいほうに制限  
 -   データベース エンジン のインスタンスごとのバッファー プールの最大メモリ：1410 MB  
@@ -79,7 +79,7 @@ Microsoft JDBC DriverはオープンソースソフトウェアでありMITラ�
 <br />
 
 ## 5. Microsoft SQL Server Management Studioのライセンスについて
-
+[Microsoft SQL Server Management Studio 21 ライセンス条項](https://learn.microsoft.com/en-us/legal/sql/ssms/sql-server-management-studio-license-terms)  
 [Microsoft SQL Server Management Studioライセンス条項](https://docs.microsoft.com/ja-jp/Legal/sql/sql-server-management-studio-license-terms)  
 
 > #### Microsoft抜粋(日本語訳)
