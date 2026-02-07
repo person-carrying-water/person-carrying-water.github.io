@@ -7,7 +7,7 @@ body {
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
   /* background: #D1D1D1; */
-  background: white;
+  background: turquoise;
 }
 
 a {
@@ -365,7 +365,7 @@ footer .owner p a {
 .markdown-body h1 {
   display: table;
   font-size: 28px;
-  background-color: khaki;
+  background-color: cornsilk;
 }
 
 .markdown-body h2 {
@@ -378,21 +378,22 @@ footer .owner p a {
 .markdown-body h3 {
   display: table;
   font-size: 20px;
-  color: darkturquoise;
-  background-color: khaki;
+  color: lightseagreen;
+  background-color: cornsilk;
 }
 
 .markdown-body h4 {
   display: table;
   font-size: 18px;
-  color: cornflowerblue;
-  background-color: khaki;
+  color: darkturquoise;
+  background-color: cornsilk;
 }
 
 .markdown-body h5 {
   display: inline-block;
   font-size: 16px;
-  background-color: khaki;
+  color: cornflowerblue;
+  background-color: cornsilk;
 }
 
 /* コードブロック */
@@ -524,7 +525,7 @@ footer .owner p a {
 .markdown-body blockquote {
   /* font-style: italic; */
   color:  midnightblue;
-  background-color: lightyellow;
+  background-color: lavender;
   font-family: Arial, sans-serif;
   /*font-family: Georgia, serif;*/
   font-size: 15px;
